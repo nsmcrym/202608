@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", /* コンパイル後のJSバージョン */
+    "module": "commonjs", /* モジュール方式 */
+    "rootDir": "./src", /* TSファイルの配置先 */
+    "outDir": "./dist", /* コンパイル後のJS出力先 */
+    "esModuleInterop": true, /* 共通モジュール互換性 (Expressで必要) */
+    "forceConsistentCasingInFileNames": true, /* 大文字小文字の区別を厳密に */
+    "strict": true, /* 厳格な型チェックを有効化 */
+    "skipLibCheck": true /* 型定義ファイルのチェックをスキップ */
+  },
+  "include": [
+    "src/**/*"
+  ] /* コンパイル対象にsrc以下を含める */
+}
