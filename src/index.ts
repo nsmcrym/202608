@@ -11,6 +11,7 @@ app.use(express.json());
 app.get('/', (req: Request, res: Response) => {
     res.send('Hello, Express + TypeScript World!');
 });
+
 //ルーティング /test
 app.get('/test', (req: Request, res: Response) => {
     res.send('test ページです');
